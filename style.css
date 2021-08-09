@@ -1,0 +1,114 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: RedHatDisplay;
+    src: url(https://fonts.google.com/specimen/Red+Hat+Display);
+}
+body{
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='1440' height='437'%3e%3cpath fill='%23D6E1FF' fill-rule='evenodd' d='M0 349.974c218.558 116.035 460.05 116.035 724.475 0s502.933-116.035 715.525 0V0H0v349.974z'/%3e%3c/svg%3e");
+    background-size: cover;
+    font-size: 16px;
+    font-family: RedHatDisplay, Arial, Helvetica, sans-serif;
+    width: 1440px;
+    height: auto;
+    color: hsl(223, 47%, 23%);
+}
+
+.container{
+    width: 29%;
+    height: 600px;
+    margin: 100px 550px;
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 12px 7px  hsl(224, 23%, 55%, 0.1);
+}
+.illustration-hero{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.main1{
+    margin-top: 5px;
+}
+.main1 h1{
+    color:  hsl(223, 47%, 23%);
+    font-size: 25px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5% 10% 3% 10%;
+}
+.main1 p{
+    color: hsl(224, 23%, 55%);
+    width: 75%;
+    height: 60px;
+    font-size: 16px;
+    text-align: center; 
+    margin: 3% 10% 5% 10% ;  
+}
+.main2{
+    background-color:  hsl(225, 100%, 98%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items:  center; 
+    margin: 5% 10% 6% 10%;
+    position: relative;
+    height: 14%;
+}
+.img1{
+    position: absolute;
+    left: 5%;
+    width: 50px;
+    height: 50px;
+}
+.main2-1{
+    line-height: 1.5em;
+    position: absolute;
+    left: 25%;
+}
+.main2-1 h2{
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    font-size: 13px;
+}
+.main2-1 p{
+    color: hsl(224, 23%, 55%);
+    font-weight: 00;
+    font-size: 16px;
+}
+.main2 a{
+    position: absolute;
+    right: 7%;
+    text-decoration: underline;
+    font-weight: 700;
+    color:  hsl(245, 75%, 52%);
+}
+.main3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main3 button{
+    padding: 3% 25%;
+    border-radius: 12px;
+    background-color: hsl(245, 75%, 52%);
+    color:  hsl(225, 100%, 94%);
+    box-shadow: 5px 25px 12px  hsl(224, 23%, 55%, 0.15);
+    font-weight: 700;
+}
+.main4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7%;
+}
+.main4 p{
+    color:hsl(224, 23%, 55%);
+    font-weight: 700;
+    font-size: 14px;
+
+}
